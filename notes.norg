@@ -3,6 +3,6 @@
 *** vpn/flat network based on oauth identity 
 *** acl to create network topolgy
 *** based on wireguard (encrypted by default)
-*** split dns
+*** split dns/magic dns
 ** tailscale lib
 ** using twingate at prores
