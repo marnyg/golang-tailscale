@@ -38,7 +38,8 @@
             # in the Nix store.
             src = ./.;
 
-            vendorHash= null;
+            #vendorSha256 = pkgs.lib.fakeSha256;
+            vendorSha256 = "sha256-/O/h+6zEW+lTcDvvp0NLZCrKEQlUcD7gmYhy5b3HIWo=";
           };
         });
       
